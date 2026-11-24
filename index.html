@@ -1,20 +1,33 @@
 
+
 <!doctype html>
 <html lang="th">
+
 <head>
-  <meta charset="UTF-8" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Website</title>
+
   <link href="/src/style.css" rel="stylesheet">
-  <title>เว็บไซต์ของเรา</title>
 </head>
 
-<body class="bg-slate-50">
+<body class="bg-slate-50 min-h-screen">
+
+  <!-- Navigation -->
   <nav class="flex gap-6 bg-slate-900 p-4 text-white">
-    <a href="#/">หน้าแรก</a>
-    <a href="#/about">เกี่ยวกับเรา</a>
+    <a href="#/" class="hover:text-blue-400">หน้าแรก</a>
+    <a href="#/admin" class="hover:text-blue-400">แอดมิน</a>
+    <a href="#/about" class="hover:text-blue-400">เกี่ยวกับเรา</a>
+    <a href="#/contact" class="hover:text-blue-400">ติดต่อเรา</a>
   </nav>
 
-  <main id="app" class="p-6"></main>
+  <!-- Main Content -->
+  <main id="app" class="p-6">
+  </main>
 
+  <!-- JavaScript -->
   <script type="module" src="/src/main.js"></script>
+
 </body>
 </html>
+

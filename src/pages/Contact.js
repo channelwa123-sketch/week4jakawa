@@ -9,7 +9,7 @@ export function ContactPage() {
     </p>
 
     <div class="mt-6 space-y-3 text-slate-700">
-      <p>📧 Email: example@gmail.com</p>
+      <p>📧 Email: channelwa123@gmail.com</p>
       <p>📞 โทรศัพท์: 012-345-6789</p>
       <p>📍 ที่อยู่: มหาสารคาม ประเทศไทย</p>
     </div>
